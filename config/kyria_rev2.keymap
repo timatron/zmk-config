@@ -29,9 +29,9 @@
 
             bindings = <
    &kp ESC   &kp Q   &kp W             &kp E         &kp R             &kp T                                                              &kp Y     &kp U      &kp I    &kp O     &kp P  &kp BACKSPACE
-   &kp TAB   &kp A   &kp S             &kp D         &kp F             &kp G                                                              &kp H     &kp J      &kp K    &kp L  &kp SEMI        &kp SQT
- &kp LSHFT   &kp Z   &kp X             &kp C         &kp V             &kp B  &kp LEFT_SHIFT  &kp LG(TAB)   &kp LSHFT  &kp LSHFT          &kp N     &kp M  &kp COMMA  &kp DOT  &kp FSLH     &kp RETURN
-                            &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND       &kp SPACE   &kp RETURN  &kp RETURN  &kp SPACE  &kp BACKSPACE  &kp DOWN     &kp UP
+   &kp TAB   &kp A   &kp S             &kp D         &kp F             &kp G                                                              &kp H     &kp J      &kp K    &kp L  &kp SEMI     &kp RETURN
+ &kp LSHFT   &kp Z   &kp X             &kp C         &kp V             &kp B  &kp LEFT_SHIFT  &kp LG(TAB)   &kp LSHFT  &kp LSHFT          &kp N     &kp M  &kp COMMA  &kp DOT  &kp DOWN         &kp UP
+                            &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND       &kp SPACE   &kp RETURN  &kp RETURN  &kp SPACE  &kp BACKSPACE  &kp LEFT  &kp RIGHT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
