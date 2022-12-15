@@ -32,7 +32,7 @@
                                                              &trans       &lt 2 TILDE  &lt 1 RET  &mt LEFT_GUI SPACE     &lt 3 ENTER    &kp BACKSLASH  &kp SPACE  &lt 1 RET          &kp SLASH            &none
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_DN PG_UP>;
         };
 
         nav {

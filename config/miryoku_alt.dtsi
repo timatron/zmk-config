@@ -21,7 +21,7 @@
       flavor = "tap-preferred";
       bindings = <&mo>, <&kp>;
     };
-    sc: shift_caps {
+    sc: sc {
         compatible = "zmk,behavior-tap-dance";
         label = "SHIFT_CAPS";
         tapping-term-ms = <400>;
