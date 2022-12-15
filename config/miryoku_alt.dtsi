@@ -24,6 +24,7 @@
     sc: sc {
         compatible = "zmk,behavior-tap-dance";
         label = "SHIFT_CAPS";
+        #binding-cells = <0>;
         tapping-term-ms = <400>;
         bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
     };
