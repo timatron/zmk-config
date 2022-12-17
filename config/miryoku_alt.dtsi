@@ -21,12 +21,15 @@
       flavor = "tap-preferred";
       bindings = <&mo>, <&kp>;
     };
-    sc: sc {
-        compatible = "zmk,behavior-tap-dance";
-        label = "SHIFT_CAPS";
-        #binding-cells = <0>;
-        tapping-term-ms = <500>;
-        bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
+    pht: positional_hold_tap {
+        compatible = "zmk,behavior-hold-tap";
+        label = "POSITIONAL_HOLD_TAP";
+        #binding-cells = <2>;
+        flavor = "hold-preferred";
+        tapping-term-ms = <U_TAPPING_TERM>;
+        quick-tap-ms = <400>;
+        bindings = <&kp>, <&kp>;
+        hold-trigger-key-positions = <13>;
     };
   };
 };
