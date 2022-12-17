@@ -28,8 +28,7 @@
  &kp LEFT_SHIFT               &kp Z           &kp X           &kp C             &kp V      &kp B               &none   &kp LEFT_BRACE  &kp RIGHT_BRACE      &none          &kp N      &kp M  &kp COMMA  &kp DOT  &kp MINUS         &kp EQUAL
                                                              &trans       &lt 2 TILDE  &lt 1 TAB  &mt LEFT_GUI SPACE  &lt 3 BACKSLASH        &kp SLASH  &kp SPACE  &kp BACKSPACE  &lt 4 RET      &none
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_DN PG_UP>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp LEFT_ARROW RIGHT_ARROW>;
         };
 
         nav {
@@ -39,6 +38,7 @@
  &trans         &kp LG(Z)     &kp LG(X)     &kp LG(C)       &kp LG(V)  &trans  &trans  &trans  &trans  &trans         &trans    &trans    &trans     &trans  &trans  &trans
                                                &trans          &trans  &trans  &trans  &trans  &trans  &trans         &trans    &trans    &trans
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp UP_ARROW DOWN_ARROW>;
         };
 
         num {
