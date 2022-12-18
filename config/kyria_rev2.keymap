@@ -16,7 +16,7 @@
             bindings = <
         &kp GRAVE &kp Q           &kp W           &kp E             &kp R      &kp T                                                                           &kp Y      &kp U      &kp I    &kp O      &kp P     &kp BACKSPACE
         &kp TAB  &u_mt LEFT_CONTROL A  &u_mt LEFT_ALT S  &u_mt LEFT_GUI D  &u_mt LEFT_SHIFT F      &kp G                                                                           &kp H      &kp J      &kp K    &kp L   &kp SEMI  &kp SINGLE_QUOTE
- &kp LEFT_SHIFT               &kp Z           &kp X           &kp C             &kp V      &kp B  &caps_word   &kp LEFT_BRACKET  &kp RIGHT_BRACKET      &tog 2          &kp N      &kp M  &kp COMMA  &kp DOT  &kp MINUS         &kp EQUAL
+ &kp LEFT_SHIFT &kp LEFT_SHIFT     &kp Z           &kp X           &kp C             &kp V      &kp B   &kp LEFT_BRACKET  &kp RIGHT_BRACKET      &tog 2          &kp N      &kp M  &kp COMMA  &kp DOT  &kp MINUS         &kp EQUAL
                                                             &trans       &u_lt 2 ESC  &u_lt 1 RET  &u_mt LEFT_GUI SPACE  &u_lt 3 BACKSLASH        &kp SLASH  &kp SPACE  &kp RET  &u_lt 4 RET      &none
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp LEFT_ARROW RIGHT_ARROW>;
