@@ -10,7 +10,7 @@
 #define U_NA &none // present but not available for use
 #define U_NU &none // available but not used
 
-#define U_TAPPING_TERM 500
+#define U_TAPPING_TERM 200
 
 #define U_RDO &kp LS(LG(Z))
 #define U_PST &kp LG(V)
