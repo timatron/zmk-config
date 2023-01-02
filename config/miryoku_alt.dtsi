@@ -21,14 +21,6 @@
       flavor = "tap-preferred";
       bindings = <&mo>, <&kp>;
     };
-    u_smt: u_smt {
-      compatible = "zmk,behavior-hold-tap";
-      label = "u_smt";
-      #binding-cells = <2>;
-      tapping_term_ms = 200;
-      flavor = "hold-preferred";
-      bindings = <&kp>, <&kp>;
-    };
   };
 };
 
