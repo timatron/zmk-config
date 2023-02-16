@@ -13,20 +13,20 @@
         compatible = "zmk,keymap";
 
 // ----------------------------------------------      -----------------------------------------------------
-// | GRESC|  1   |  2  |  3   |  4  |  5  |  6  |      |  7  |  8  |  9  |  0  |  -  |  =  |  BKSPC | DEL  |
-// | TAB   |  Q   |  W  |  E   |  R  |  T  |        |  Y  |  U  |  I  |  O  |  P  |  [  |  ]  |  \  | PGUP |
-// | LCTRL  |  A   |  S  |  D   |  F  |  G  |        |  H  |  J  |  K  |  L  |  ;  |  '  |   ENTER  | PGUP |
-// | SHIFT   |  Z   |  X  |  C  |  V   |  B  |        |  N  |  M  |  ,  |  .  |  /  |  RSHFT  |  UP | FN 2 |
-// | LCTRL   | LGUI | LALT |   SPACE   | FN  |        |    SPACE    | RALT | FN | RCTRL | LFT | DWN | RGHT |
+// | GRAVE|  1   |  2  |  3   |  4  |  5  |  6  |      |  7  |  8  |  9  |  0  |  -  |  =  |  BKSPC | HOME  |
+// | TAB   |  Q   |  W  |  E   |  R  |  T  |        |  Y  |  U  |  I  |  O  |  P  |  [  |  ]  |  \  | END |
+// | CAPS  |  A   |  S  |  D   |  F  |  G  |        |  H  |  J  |  K  |  L  |  ;  |  '  |   ENTER  | PGUP |
+// | SHIFT   |  Z   |  X  |  C  |  V   |  B  |        |  N  |  M  |  ,  |  .  |  /  |  RSHFT  |  UP | PGDN |
+// | ESC | LCTRL   | LALT | LGUI |   LGUI   |         |    SPACE    | RALT | FN | RCTRL | LFT | DWN | RGHT |
 // -------------------------------------------        ------------------------------------------------------
 
         default_layer {
             bindings = <
-    &gresc           &kp N1   &kp N2   &kp N3    &kp N4 &kp N5 &kp N6 /**/ &kp N7    &kp N8   &kp N9    &kp N0    &kp MINUS &kp EQUAL        &kp BSPC &kp DEL
-    &kp TAB          &kp Q    &kp W    &kp E     &kp R  &kp T         /**/ &kp Y     &kp U    &kp I     &kp O     &kp P     &kp LBKT         &kp RBKT &kp BSLH &kp PG_UP
-    &mo 2            &kp A    &kp S    &kp D     &kp F  &kp G         /**/ &kp H     &kp J    &kp K     &kp L     &kp SEMI  &kp SQT          &kp RET  &kp PG_DN
-    &mt LSHFT LS(N9) &kp Z    &kp X    &kp C     &kp V  &kp B         /**/ &kp N     &kp M    &kp COMMA &kp DOT   &kp FSLH  &mt RSHFT LS(N0) &kp UP   &mo 2
-    &kp LCTRL        &kp LGUI &kp LALT &kp SPACE &lt 1 BSPC           /**/ &kp SPACE &kp RALT &mo 1     &kp RCTRL &kp LEFT  &kp DOWN         &kp RIGHT
+    &kp GRAVE        &kp N1   &kp N2   &kp N3    &kp N4 &kp N5 &kp N6 /**/ &kp N7    &kp N8   &kp N9    &kp N0    &kp MINUS &kp EQUAL        &kp BSPC &kp HOME
+    &kp TAB          &kp Q    &kp W    &kp E     &kp R  &kp T         /**/ &kp Y     &kp U    &kp I     &kp O     &kp P     &kp LBKT         &kp RBKT &kp BSLH &kp END
+    &kp CAPSLOCK     &kp A    &kp S    &kp D     &kp F  &kp G         /**/ &kp H     &kp J    &kp K     &kp L     &kp SEMI  &kp SQT          &kp RET  &kp PG_UP
+    &mt LSHFT LS(N9) &kp Z    &kp X    &kp C     &kp V  &kp B         /**/ &kp N     &kp M    &kp COMMA &kp DOT   &kp FSLH  &kp RSHFT        &kp UP   &kp PG_DN
+    &kp ESC        &kp LCTRL &kp LALT &kp LGUI &kp LGUI           /**/ &kp SPACE &kp RGUI &kp RGUI     &kp RGUI &kp LEFT  &kp DOWN         &kp RIGHT
             >;
         };
 
