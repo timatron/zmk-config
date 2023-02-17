@@ -13,20 +13,20 @@
         compatible = "zmk,keymap";
 
 // ----------------------------------------------      -----------------------------------------------------
-// | GRAVE|  1   |  2  |  3   |  4  |  5  |  6  |      |  7  |  8  |  9  |  0  |  -  |  =  |  BKSPC | HOME  |
+// | ESC|  1   |  2  |  3   |  4  |  5  |  6  |      |  7  |  8  |  9  |  0  |  -  |  =  |  BKSPC | HOME  |
 // | TAB   |  Q   |  W  |  E   |  R  |  T  |        |  Y  |  U  |  I  |  O  |  P  |  [  |  ]  |  \  | END |
-// | CAPS  |  A   |  S  |  D   |  F  |  G  |        |  H  |  J  |  K  |  L  |  ;  |  '  |   ENTER  | PGUP |
+// | GRAVE  |  A   |  S  |  D   |  F  |  G  |        |  H  |  J  |  K  |  L  |  ;  |  '  |   ENTER  | PGUP |
 // | SHIFT   |  Z   |  X  |  C  |  V   |  B  |        |  N  |  M  |  ,  |  .  |  /  |  RSHFT  |  UP | PGDN |
-// | ESC | LCTRL   | LALT | LGUI |   LGUI   |         |    SPACE    | RALT | FN | RCTRL | LFT | DWN | RGHT |
+// | CAPS | LCTRL   | LALT | LGUI |   LGUI   |         |    SPACE    | RGUI | C_PLAY_PAUSE | XXX | LFT | DWN | RGHT |
 // -------------------------------------------        ------------------------------------------------------
 
         default_layer {
             bindings = <
-    &kp GRAVE        &kp N1   &kp N2   &kp N3    &kp N4 &kp N5 &kp N6 /**/ &kp N7    &kp N8   &kp N9    &kp N0    &kp MINUS &kp EQUAL        &kp BSPC &kp HOME
+    &kp ESC        &kp N1   &kp N2   &kp N3    &kp N4 &kp N5 &kp N6 /**/ &kp N7    &kp N8   &kp N9    &kp N0    &kp MINUS &kp EQUAL        &kp BSPC &kp HOME
     &kp TAB          &kp Q    &kp W    &kp E     &kp R  &kp T         /**/ &kp Y     &kp U    &kp I     &kp O     &kp P     &kp LBKT         &kp RBKT &kp BSLH &kp END
-    &kp CAPSLOCK     &kp A    &kp S    &kp D     &kp F  &kp G         /**/ &kp H     &kp J    &kp K     &kp L     &kp SEMI  &kp SQT          &kp RET  &kp PG_UP
+    &kp GRAVE     &kp A    &kp S    &kp D     &kp F  &kp G         /**/ &kp H     &kp J    &kp K     &kp L     &kp SEMI  &kp SQT          &kp RET  &kp PG_UP
     &mt LSHFT LS(N9) &kp Z    &kp X    &kp C     &kp V  &kp B         /**/ &kp N     &kp M    &kp COMMA &kp DOT   &kp FSLH  &kp RSHFT        &kp UP   &kp PG_DN
-    &kp ESC        &kp LCTRL &kp LALT &kp LGUI &kp LGUI           /**/ &kp SPACE &kp RGUI &kp RGUI     &kp RGUI &kp LEFT  &kp DOWN         &kp RIGHT
+    &caps_word      &kp LCTRL &kp LALT &kp LGUI &kp LGUI           /**/ &kp SPACE &kp RGUI &kp C_PLAY_PAUSE  &trans &kp LEFT  &kp DOWN         &kp RIGHT
             >;
         };
 
