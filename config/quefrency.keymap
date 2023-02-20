@@ -17,7 +17,7 @@
 // | TAB   |  Q   |  W  |  E   |  R  |  T  |        |  Y  |  U  |  I  |  O  |  P  |  [  |  ]  |  \  | END |
 // | GRAVE  |  A   |  S  |  D   |  F  |  G  |        |  H  |  J  |  K  |  L  |  ;  |  '  |   ENTER  | PGUP |
 // | SHIFT   |  Z   |  X  |  C  |  V   |  B  |        |  N  |  M  |  ,  |  .  |  /  |  RSHFT  |  UP | PGDN |
-// | CAPS | LCTRL   | LALT | LGUI |   LGUI   |         |    SPACE    | RGUI | C_PLAY_PAUSE | XXX | LFT | DWN | RGHT |
+// | CAPS | LCTRL   | LALT | SPACE |   LGUI   |         |    SPACE    | RGUI | C_PLAY_PAUSE | XXX | LFT | DWN | RGHT |
 // -------------------------------------------        ------------------------------------------------------
 
         default_layer {
@@ -26,7 +26,7 @@
     &kp TAB          &kp Q    &kp W    &kp E     &kp R  &kp T         /**/ &kp Y     &kp U    &kp I     &kp O     &kp P     &kp LBKT         &kp RBKT &kp BSLH &kp END
     &kp GRAVE     &kp A    &kp S    &kp D     &kp F  &kp G         /**/ &kp H     &kp J    &kp K     &kp L     &kp SEMI  &kp SQT          &kp RET  &kp PG_UP
     &mt LSHFT LS(N9) &kp Z    &kp X    &kp C     &kp V  &kp B         /**/ &kp N     &kp M    &kp COMMA &kp DOT   &kp FSLH  &kp RSHFT        &kp UP   &kp PG_DN
-    &caps_word      &kp LCTRL &kp LALT &kp LGUI &kp LGUI           /**/ &kp SPACE &kp RGUI &kp C_PLAY_PAUSE  &trans &kp LEFT  &kp DOWN         &kp RIGHT
+    &caps_word      &kp LCTRL &kp LALT &kp SPACE &kp LGUI           /**/ &kp SPACE &kp RGUI &kp C_PLAY_PAUSE  &trans &kp LEFT  &kp DOWN         &kp RIGHT
             >;
         };
 
