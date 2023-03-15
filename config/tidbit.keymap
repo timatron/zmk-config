@@ -6,9 +6,11 @@
 
 #include <behaviors.dtsi>
 #include "miryoku_alt.dtsi"
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/keys.h>
 
-&encoder_1_top_row {
+&encoder_1 {
     status = "okay";
 };
 
@@ -18,7 +20,7 @@
         
         default_layer {
             bindings = <
-                                &kp DEL         &kp KP_DIVIDE   &kp KP_MULTIPLY
+                                &kp ESC         &kp KP_DIVIDE   &kp KP_MULTIPLY
                 &kp KP_NUMBER_7 &kp KP_NUMBER_8 &kp KP_NUMBER_9 &kp KP_MINUS
                 &kp KP_NUMBER_4 &kp KP_NUMBER_5 &kp KP_NUMBER_6 &kp KP_PLUS
                 &kp KP_NUMBER_1 &kp KP_NUMBER_2 &kp KP_NUMBER_3 &kp KP_ENTER
