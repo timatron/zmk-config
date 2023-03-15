@@ -6,13 +6,7 @@
 
 #include <behaviors.dtsi>
 #include "miryoku_alt.dtsi"
-#include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/keys.h>
-
-&encoder_1 {
-    status = "okay";
-};
 
 / {
     keymap {
@@ -26,8 +20,6 @@
                 &kp KP_NUMBER_1 &kp KP_NUMBER_2 &kp KP_NUMBER_3 &kp KP_ENTER
                 &kp KP_NUMBER_0 &kp KP_NUMBER_0 &kp KP_DOT      &none
             >;
-
-           sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
     };
