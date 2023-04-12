@@ -14,7 +14,7 @@
         
         default_layer {
             bindings = <
-                                &kp ESC         &kp KP_DIVIDE   &kp KP_MULTIPLY
+                                &kp BACKSPACE   &kp KP_DIVIDE   &kp KP_MULTIPLY
                 &kp KP_NUMBER_7 &kp KP_NUMBER_8 &kp KP_NUMBER_9 &kp KP_MINUS
                 &kp KP_NUMBER_4 &kp KP_NUMBER_5 &kp KP_NUMBER_6 &kp KP_PLUS
                 &kp KP_NUMBER_1 &kp KP_NUMBER_2 &kp KP_NUMBER_3 &kp KP_ENTER
