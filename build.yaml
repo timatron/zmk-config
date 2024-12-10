@@ -17,7 +17,7 @@ include:
     shield: quefrency_left
   - board: nice_nano_v2
     shield: quefrency_right
-  - board: nice_nano_v2
-    shield: tidbit
+  # - board: nice_nano_v2
+  #   shield: tidbit
   - board: nice_nano_v2
     shield: settings_reset
